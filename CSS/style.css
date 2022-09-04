@@ -1,0 +1,720 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color: #f7f3f3;
+}
+.header{
+    background-color: #758283;
+    width: 100%;
+    height: 600px;
+    z-index: -1;
+}
+nav{
+    flex: 1;
+    padding: 3% 8%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nav-items img{
+    width: 110px;
+}
+.nav-item{
+    flex: 0.67;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 19%;
+}
+.nav-item h5{
+    color: #f7f3f3;
+    margin-right: 5%;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+}
+.nav-item h5:hover{
+    cursor: pointer;
+    font-size: 11pt;
+    border-bottom: 2px solid #5A20CB;
+}
+nav>button{
+    color: #f7f3f3;
+    padding: 2px 35px;
+    background-color: transparent;
+    border: #909b9c 1px solid;
+}
+nav>button:hover{
+    cursor: pointer;
+    font-size: 10pt;
+    background-color: #0ec77a;
+    transition: 5ms ease-in-out;
+}
+.Hero-Section{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Meeting{
+    margin-top: 1%;
+}
+
+.Heading001{
+    width: 450px;
+}
+
+.Heading001 h1{
+    font-family: Roboto, sans-serif;
+    font-size: 53px;
+    color: #f7f3f3;
+    width: 550px;
+}
+.Heading001 p{
+    color: #f7f3f3;
+    font-weight: 200;
+    font-family: Montserrat, sans-serif;
+    font-size: 12pt;
+    color: #f7f3f3;
+    width: 450px;
+    line-height: 2;
+}
+.fa-envelope{
+    position: absolute;
+    top: 60%;
+    z-index: 1;
+    margin-left: 1%;
+}
+.email{
+    z-index: 0;
+    padding: 16px 110px;
+    text-align: start;
+    align-items: flex-start;
+    display: flex;
+}
+.email:hover{
+    cursor: pointer;
+    font-size: 10pt;
+    transition: 5ms ease-in-out;
+}
+.submit{
+    z-index: 1;
+    padding: 12px 35px;
+    position: absolute;
+    top: 58%;
+    right:18.5%;
+    background-color: #1FAA59;
+    color: #f7f3f3;
+    border: none;
+    opacity: .5;
+}
+.submit:hover{
+    cursor: pointer;
+    font-size: 10pt;
+    background-color: #1f67aa;
+    transition: 5ms ease-in-out;
+}
+input::placeholder {
+    font-weight: bold;
+    opacity: .5;
+    z-index: 0;
+    text-align: start;
+    position: absolute;
+    right: 45%;
+}
+.Targets{
+    padding: 6% 9%;
+}
+.Targets h2{
+    font-family: Roboto, sans-serif;
+    font-size: 30px;
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    justify-content: space-between;
+}
+.Target-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 12%;
+    line-height: 0.8;
+}
+.Targets h4{
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+    text-align: start;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+.Target-items h4>span{
+    color: #000;
+    font-size: 20pt;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-weight: 600;
+}
+.Targets img{
+    z-index: 0;
+    margin-top: 6%;
+    margin-left: 8%;
+}
+.fa-circle-play{
+    color: #ffffff;
+    z-index: 1;
+    position: absolute;
+    margin-top: 23.5%;
+    margin-left: 37%;
+    font-size: 40px;
+}
+.fa-circle-play:hover{
+    cursor: pointer;
+    background-color: #5A20CB;
+    border-radius: 50%;
+}
+.Heading101{
+    font-family: Roboto, sans-serif;
+    font-size: 22px;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #2c2c2c;
+}
+
+.Development{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+}
+.Development-Heading{
+    margin-left: 20%;
+}
+.Development h2{
+    font-family: Roboto, sans-serif;
+    font-size: 27px;
+    margin-top: 15%;
+    text-align: start;
+    color: #2c2c2c;
+    width: 350px;
+    line-height: 1.5;
+}
+
+.Development p{
+    padding-top: 5%;
+    width: 310px;
+    line-height: 2;
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 8pt;
+}
+.Development button{
+    margin-top: 5%;
+    padding: 10px 30px;
+    background-color: #1FAA59;
+    color: #f7f3f3;
+    opacity: 0.6;
+    border: none;
+}
+.Development button:hover{
+    cursor: pointer;
+    font-size: 10pt;
+    background-color: #1f67aa;
+    transition: 5ms ease-in-out;
+}
+.Development img{
+    margin-right: 25%;
+}
+.Strategies{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.Strategies img{
+    margin-left: 20%;
+}
+.strategies-heading{
+    margin-top: 9%;
+    width: 400px;
+}
+.Strategies h2{
+    width: 340px;
+    font-family: Roboto, sans-serif;
+    font-size: 27px;
+    color: #2c2c2c;
+    line-height: 1.2;
+}
+.Strategies p{
+    width: 320px;
+    line-height: 2;
+    padding-top: 4%;   
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 8pt;
+}
+.Strategies button{
+    margin-top: 5%;
+    padding: 10px 30px;
+    background-color: #1FAA59;
+    color: #f7f3f3;
+    opacity: 0.6;
+    border: none;
+}
+.Strategies button:hover{
+    cursor: pointer;
+    font-size: 10pt;
+    background-color: #1f67aa;
+    transition: 5ms ease-in-out;
+}
+.linkdin-sales{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+
+.Linkdin-heading{
+    width: 300px;
+    margin-top: 15%;
+    margin-left: 20%;
+}
+.Linkdin-heading h2{
+    width: 340px;
+    font-family: Roboto, sans-serif;
+    font-size: 27px;
+    color: #2c2c2c;
+    line-height: 1.2;
+}
+.Linkdin-heading p{
+    width: 320px;
+    line-height: 2;
+    padding-top: 5%;   
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 8pt;
+}
+.Linkdin-heading button{
+    margin-top: 5%;
+    padding: 10px 30px;
+    background-color: #1FAA59;
+    color: #f7f3f3;
+    opacity: 0.6;
+    border: none;
+}
+.Linkdin-heading button:hover{
+    cursor: pointer;
+    font-size: 10pt;
+    background-color: #1f67aa;
+    transition: 5ms ease-in-out;
+}
+.Heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+}
+.Heading h1{
+    width: 300px;
+    font-family: Roboto, sans-serif;
+    font-size: 27px;
+    color: #000;
+    line-height: 1.2;
+    margin-left: 3.5%;
+}
+.Heading p{
+    width: 330px;
+    line-height: 1.8;   
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 9pt;
+    color: #000;
+    margin-left: -10%;
+}
+.More-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3%;
+    margin-left: 19%;
+    margin-right: 19%;
+}
+.Amera-Amanda h3{
+    color: #000;
+    font-family: Roboto, sans-serif;
+    padding-top: 3%;
+    font-weight: 600;
+    font-size: 12pt;
+}
+.Amera-Amanda p{
+    width: 270px;
+    line-height: 1.8;   
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 9pt;
+    right: 14%;
+    margin-top: 3%;
+    color: #000;
+}
+.Lucas-podolski{
+    margin-left: 2%;
+}
+.Lucas-podolski h3{
+    color: #000;
+    font-family: Roboto, sans-serif;
+    padding-top: 3%;
+    font-weight: 600;
+    font-size:12pt;
+}
+.Lucas-podolski p{
+    width: 270px;
+    line-height: 1.8;   
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 9pt;
+    margin-top: 3%;
+    color: #000;
+}
+.Leny-Marissa{
+    margin-left: 1.5%;
+}
+.Leny-Marissa h3{
+    color: #000;
+    font-family: Roboto, sans-serif;
+    padding-top: 3%;
+    font-weight: 600;
+    font-size:12pt;
+}
+.Leny-Marissa p{
+    width: 270px;
+    line-height: 1.8;   
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 9pt;
+    margin-top: 3%;
+    color: #000;
+}
+.See-more button{
+    margin-left: 45%; 
+    align-self: center;
+    text-align: center;
+    margin-top: 5%;
+    padding: 10px 30px;
+    background-color: #1FAA59;
+    color: #f7f3f3;
+    opacity: 0.6;
+    border: none;
+}
+.See-more button:hover{
+    cursor: pointer;
+    font-size: 10pt;
+    background-color: #1f67aa;
+    transition: 5ms ease-in-out;
+}
+.Footer{
+    background-color: #000;
+    padding: 4% 13%;
+    margin-top: 5%;
+}
+.image-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo2{
+    width: 110px;
+    height: 40px;
+}
+.icons:hover{
+    cursor: pointer;
+}
+.line{
+    margin-top: 5%;
+    width: 100%;
+    height: 1px;
+    background-color: #758283;
+}
+.Footer-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #f7f3f3;
+    margin-top: 5%;
+}
+.our-product{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #f7f3f3;
+}
+.our-product h4{
+    line-height: 1.8;   
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+}
+.our-product h4:hover{
+    cursor: pointer;
+    font-size: 14pt;
+    border-bottom: 2px solid #5A20CB;
+}
+.our-product h5{
+    padding-top: 10%;
+    line-height: 1.8;   
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 8pt;
+}
+.our-product h5:hover{
+    cursor: pointer;
+    font-size: 10pt;
+    border-bottom: 2px solid #5A20CB;
+}
+.Top-Features{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #f7f3f3;
+}
+.Top-Features h4{
+    line-height: 1.8;   
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+}
+.Top-Features h4:hover{
+    cursor: pointer;
+    font-size: 14pt;
+    border-bottom: 2px solid #5A20CB;
+}
+.Top-Features h5{
+    padding-top: 10%;
+    line-height: 1.8;   
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 8pt;
+}
+.Top-Features h5:hover{
+    cursor: pointer;
+    font-size: 10pt;
+    border-bottom: #5A20CB 2px solid;
+}
+.Resources{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #f7f3f3;
+}
+.Resources h4{
+    line-height: 1.8;   
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+}
+.Resources h4:hover{
+    cursor: pointer;
+    font-size: 14pt;
+    border-bottom: 2px solid #5A20CB;
+}
+.Resources h5{
+    padding-top: 10%;
+    line-height: 1.8;   
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 8pt;
+}
+.Resources h5:hover{
+    cursor: pointer;
+    font-size: 10pt;
+    border-bottom: 2px solid #5A20CB;
+}
+.Company{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #f7f3f3;
+}
+.Company h4{
+    line-height: 1.8;   
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+}
+.Company h4:hover{
+    cursor: pointer;
+    font-size: 14pt;
+    border-bottom: 2px solid #5A20CB;
+}
+.Company h5{
+    padding-top: 10%;
+    line-height: 1.8;   
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 8pt;
+}
+.Company h5:hover{
+    cursor: pointer;
+    font-size: 10pt;
+    border-bottom: 2px solid #5A20CB;
+}
+.Favourite-Things{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #f7f3f3;
+}
+.Favourite-Things h4{
+    line-height: 1.8;   
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 12pt;
+}
+.Favourite-Things h4:hover{
+    cursor: pointer;
+    font-size: 14pt;
+    border-bottom: 2px solid #5A20CB;
+}
+.Favourite-Things h5{
+    padding-top: 10%;
+    line-height: 1.8;   
+    font-family: Montserrat, sans-serif;
+    font-weight: 400;
+    font-size: 8pt;
+}
+.Favourite-Things h5:hover{
+    cursor: pointer;
+    font-size: 10pt;
+    border-bottom: 1px solid #5A20CB;
+}
+
+/* Media Querry */
+
+@media only screen and (Max-width: 600px) {
+    .nav-item{
+        display: none;
+    }
+    .header{
+        height: auto;
+        width: auto;
+    }
+    .Hero-Section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .fa-envelope{
+        position: absolute;
+        top:128%;
+    }
+    .submit{
+        position: absolute;
+        top:126%;
+        right: 20%;
+    }
+    .Target h2{
+        width: auto;
+        text-align: center;
+        position: absolute;
+        left:0%;
+    }
+    .Targets img{
+        width: 90%;
+        height: 85%;
+    }
+    .Heading101{
+        padding-bottom: 6%;
+    }
+    .Development{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Development img{
+        align-items: center;
+        margin-left: 25%;
+        width: 50%;
+        height: 55%;
+    }
+    .Development-Heading{
+        margin-left: 0%;
+        text-align: center;
+    }
+   
+    .Strategies{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Strategies img{
+        margin-left: 0%;
+    }
+    .linkdin-sales{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .Linkdin-heading{
+        margin-left: -10%;
+    }
+    .linkdin-sales img{
+        width: 60%;
+        height: 60%;
+        margin-left: 15%;
+    }
+    .Heading{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .More-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 2%;
+    }
+    .More-info>div{
+        column-gap: 12%;
+    }
+    .Footer-items{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: start;
+    }
+    .our-product{
+        padding-bottom: 5%;
+    }
+    .Top-Features{
+        padding-bottom: 5%;
+    }
+    .Resources{
+        padding-bottom: 5%;
+    }
+    .Company{
+        padding-bottom: 5%;
+    }
+
+}
